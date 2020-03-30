@@ -14,7 +14,7 @@
     <version>1.0</version>
     <name>flying-saucer-service</name>
     <description>Flying Saucer as a service</description>
-
+    
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -49,6 +49,7 @@
     </dependencies>
 
     <build>
+        <finalName>flying-saucer-service</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

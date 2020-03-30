@@ -25,11 +25,11 @@ mvn package
 ## Run
 
 ```sh
-java -jar target/flying-saucer-service-1.0.jar
+java -jar target/flying-saucer-service.jar
 ```
 
 ### Run with docker
 
 ```sh
-docker run --rm -p 8080:8080 rvillablanca/flying-saucer-service:1.0
+docker run --rm -p 8080:8080 rvillablanca/flying-saucer-service
 ```
